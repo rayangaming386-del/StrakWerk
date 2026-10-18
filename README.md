@@ -57,3 +57,4 @@ supabase/functions  serverfunctie teambeheer
 scripts/            accounts aanmaken, back-up
 docs/               SETUP, ARCHITECTUUR, TESTEN, OPEN-PUNTEN
 ```
+
