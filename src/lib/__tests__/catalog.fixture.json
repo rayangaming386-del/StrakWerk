@@ -1,0 +1,763 @@
+{
+    "hints": [
+        {
+            "id": "5bc3bdf6-f052-4b61-b96e-0f5b56d8e0f0",
+            "make": "Audi",
+            "model": "Q2",
+            "notes": null,
+            "high_entry": false
+        },
+        {
+            "id": "63793d3e-e22a-44a9-9e41-c15a29dc906e",
+            "make": "Audi",
+            "model": "Q7",
+            "notes": "Grote SUV",
+            "high_entry": true
+        },
+        {
+            "id": "2039749f-c5b2-482b-9348-59beb32c7321",
+            "make": "BMW",
+            "model": "X3",
+            "notes": "Grote SUV",
+            "high_entry": true
+        },
+        {
+            "id": "cfedc917-22c0-4897-8025-dd683b3f4d75",
+            "make": "Nissan",
+            "model": "Juke",
+            "notes": null,
+            "high_entry": false
+        },
+        {
+            "id": "1c0b4cc1-68f9-4bce-921b-11c937cf1f71",
+            "make": "Volkswagen",
+            "model": "T-Roc",
+            "notes": null,
+            "high_entry": false
+        }
+    ],
+    "prices": [
+        {
+            "id": "ea15eb82-0664-4255-8989-1ae4cd8a9af2",
+            "label": "Complete auto",
+            "active": true,
+            "body_type": null,
+            "door_count": null,
+            "high_entry": null,
+            "service_id": "2e0d1369-ed2e-40e7-883b-216a1dd92363",
+            "sort_order": 1,
+            "price_cents": null,
+            "duration_min": 150,
+            "rear_window_count": null,
+            "front_window_count": null,
+            "passenger_car_only": false
+        },
+        {
+            "id": "34199e2d-3fa7-4cad-a2d4-1b4189e4a0cf",
+            "label": "Personenauto / lage SUV",
+            "active": true,
+            "body_type": null,
+            "door_count": null,
+            "high_entry": false,
+            "service_id": "9119f385-9c1c-4840-b54d-784b46d35487",
+            "sort_order": 1,
+            "price_cents": 12000,
+            "duration_min": null,
+            "rear_window_count": null,
+            "front_window_count": null,
+            "passenger_car_only": false
+        },
+        {
+            "id": "a2538a5d-8fcb-4ecb-b785-7ea42efd1de6",
+            "label": "Hoge instap / grote SUV / bus",
+            "active": true,
+            "body_type": null,
+            "door_count": null,
+            "high_entry": true,
+            "service_id": "9119f385-9c1c-4840-b54d-784b46d35487",
+            "sort_order": 2,
+            "price_cents": 14000,
+            "duration_min": null,
+            "rear_window_count": null,
+            "front_window_count": null,
+            "passenger_car_only": false
+        },
+        {
+            "id": "9869df67-7856-45ff-abe8-af96a06b81ae",
+            "label": "Hatchback, standaard vijf achterramen",
+            "active": true,
+            "body_type": "hatchback",
+            "door_count": null,
+            "high_entry": null,
+            "service_id": "9cba3426-f45c-46e7-89ec-1c64f9d5aa74",
+            "sort_order": 1,
+            "price_cents": 12000,
+            "duration_min": 60,
+            "rear_window_count": 5,
+            "front_window_count": null,
+            "passenger_car_only": false
+        },
+        {
+            "id": "7753e576-352c-4830-97e4-bf495ad73c41",
+            "label": "Hatchback, driedeurs met drie achterramen",
+            "active": true,
+            "body_type": "hatchback",
+            "door_count": 3,
+            "high_entry": null,
+            "service_id": "9cba3426-f45c-46e7-89ec-1c64f9d5aa74",
+            "sort_order": 2,
+            "price_cents": 8000,
+            "duration_min": 60,
+            "rear_window_count": 3,
+            "front_window_count": null,
+            "passenger_car_only": false
+        },
+        {
+            "id": "6331519f-5480-4a35-a3b3-59739a21ce48",
+            "label": "Hatchback, vijfdeurs met drie achterramen",
+            "active": true,
+            "body_type": "hatchback",
+            "door_count": 5,
+            "high_entry": null,
+            "service_id": "9cba3426-f45c-46e7-89ec-1c64f9d5aa74",
+            "sort_order": 3,
+            "price_cents": 9000,
+            "duration_min": 60,
+            "rear_window_count": 3,
+            "front_window_count": null,
+            "passenger_car_only": false
+        },
+        {
+            "id": "50ab4163-592b-4110-ae23-2fe40a2c008d",
+            "label": "Station, vijf achterramen",
+            "active": true,
+            "body_type": "station",
+            "door_count": null,
+            "high_entry": null,
+            "service_id": "9cba3426-f45c-46e7-89ec-1c64f9d5aa74",
+            "sort_order": 4,
+            "price_cents": 13000,
+            "duration_min": 60,
+            "rear_window_count": 5,
+            "front_window_count": null,
+            "passenger_car_only": false
+        },
+        {
+            "id": "757f72a6-0d80-48b7-9ffe-bb93ce413fa1",
+            "label": "Station, zeven achterramen",
+            "active": true,
+            "body_type": "station",
+            "door_count": null,
+            "high_entry": null,
+            "service_id": "9cba3426-f45c-46e7-89ec-1c64f9d5aa74",
+            "sort_order": 5,
+            "price_cents": 15000,
+            "duration_min": 60,
+            "rear_window_count": 7,
+            "front_window_count": null,
+            "passenger_car_only": false
+        },
+        {
+            "id": "9e466c71-497a-43d1-b31c-33df79b8da43",
+            "label": "Sedan, vijf achterramen",
+            "active": true,
+            "body_type": "sedan",
+            "door_count": null,
+            "high_entry": null,
+            "service_id": "9cba3426-f45c-46e7-89ec-1c64f9d5aa74",
+            "sort_order": 6,
+            "price_cents": 14000,
+            "duration_min": 60,
+            "rear_window_count": 5,
+            "front_window_count": null,
+            "passenger_car_only": false
+        },
+        {
+            "id": "72da7ba3-3f8e-4cd3-9134-b7477d87ddcb",
+            "label": "Coupé, drie achterramen",
+            "active": true,
+            "body_type": "coupe",
+            "door_count": null,
+            "high_entry": null,
+            "service_id": "9cba3426-f45c-46e7-89ec-1c64f9d5aa74",
+            "sort_order": 7,
+            "price_cents": 12000,
+            "duration_min": 60,
+            "rear_window_count": 3,
+            "front_window_count": null,
+            "passenger_car_only": false
+        },
+        {
+            "id": "3c024610-d95f-455e-a805-e6bc73181608",
+            "label": "SUV, vijf achterramen",
+            "active": true,
+            "body_type": "suv",
+            "door_count": null,
+            "high_entry": null,
+            "service_id": "9cba3426-f45c-46e7-89ec-1c64f9d5aa74",
+            "sort_order": 8,
+            "price_cents": 13000,
+            "duration_min": 60,
+            "rear_window_count": 5,
+            "front_window_count": null,
+            "passenger_car_only": false
+        },
+        {
+            "id": "41a9dc55-554f-4a0e-8c03-96f34c1f4138",
+            "label": "SUV, zeven achterramen",
+            "active": true,
+            "body_type": "suv",
+            "door_count": null,
+            "high_entry": null,
+            "service_id": "9cba3426-f45c-46e7-89ec-1c64f9d5aa74",
+            "sort_order": 9,
+            "price_cents": 15000,
+            "duration_min": 60,
+            "rear_window_count": 7,
+            "front_window_count": null,
+            "passenger_car_only": false
+        },
+        {
+            "id": "80248431-84b7-4499-ad74-a730f789f296",
+            "label": "Bus, drie achterramen",
+            "active": true,
+            "body_type": "bus",
+            "door_count": null,
+            "high_entry": null,
+            "service_id": "9cba3426-f45c-46e7-89ec-1c64f9d5aa74",
+            "sort_order": 10,
+            "price_cents": 11000,
+            "duration_min": 60,
+            "rear_window_count": 3,
+            "front_window_count": null,
+            "passenger_car_only": false
+        },
+        {
+            "id": "3eeeff67-d8e0-46e6-ad52-8c104c5bafcf",
+            "label": "Bus, vijf achterramen",
+            "active": true,
+            "body_type": "bus",
+            "door_count": null,
+            "high_entry": null,
+            "service_id": "9cba3426-f45c-46e7-89ec-1c64f9d5aa74",
+            "sort_order": 11,
+            "price_cents": 15000,
+            "duration_min": 60,
+            "rear_window_count": 5,
+            "front_window_count": null,
+            "passenger_car_only": false
+        },
+        {
+            "id": "e4bafdbb-eacb-462e-a6c9-b0de2c397b2d",
+            "label": "Personenauto",
+            "active": true,
+            "body_type": null,
+            "door_count": null,
+            "high_entry": null,
+            "service_id": "e92c7e56-dd82-4460-845f-2c8c51c6bf6b",
+            "sort_order": 1,
+            "price_cents": 7000,
+            "duration_min": 45,
+            "rear_window_count": null,
+            "front_window_count": null,
+            "passenger_car_only": true
+        },
+        {
+            "id": "967e9d86-da41-4ded-9158-2af6b7b7bec4",
+            "label": "Bus, standaardvariant",
+            "active": true,
+            "body_type": "bus",
+            "door_count": null,
+            "high_entry": null,
+            "service_id": "e92c7e56-dd82-4460-845f-2c8c51c6bf6b",
+            "sort_order": 2,
+            "price_cents": 8000,
+            "duration_min": 45,
+            "rear_window_count": null,
+            "front_window_count": null,
+            "passenger_car_only": false
+        },
+        {
+            "id": "1136937d-7bb9-45dc-bbf0-dc34cafb81c3",
+            "label": "Bus, vier ramen",
+            "active": true,
+            "body_type": "bus",
+            "door_count": null,
+            "high_entry": null,
+            "service_id": "e92c7e56-dd82-4460-845f-2c8c51c6bf6b",
+            "sort_order": 3,
+            "price_cents": 9000,
+            "duration_min": 45,
+            "rear_window_count": null,
+            "front_window_count": 4,
+            "passenger_car_only": false
+        },
+        {
+            "id": "74361db4-ba41-491c-8624-4cc6a821d2b5",
+            "label": "Personenauto / lage SUV",
+            "active": true,
+            "body_type": null,
+            "door_count": null,
+            "high_entry": false,
+            "service_id": "f589fc46-4639-4aff-a89e-f875e0ae2769",
+            "sort_order": 1,
+            "price_cents": 13000,
+            "duration_min": 60,
+            "rear_window_count": null,
+            "front_window_count": null,
+            "passenger_car_only": false
+        },
+        {
+            "id": "b98e0119-b781-400a-b115-dfd5e8051e69",
+            "label": "Hoge instap / grote SUV / bus",
+            "active": true,
+            "body_type": null,
+            "door_count": null,
+            "high_entry": true,
+            "service_id": "f589fc46-4639-4aff-a89e-f875e0ae2769",
+            "sort_order": 2,
+            "price_cents": 15000,
+            "duration_min": 60,
+            "rear_window_count": null,
+            "front_window_count": null,
+            "passenger_car_only": false
+        }
+    ],
+    "bundles": [
+        {
+            "id": "45029935-e89d-4a4b-956e-84f97df78d19",
+            "make": null,
+            "name": "Compleet hatchback met kameleon voorruit",
+            "notes": "Complete auto: B-stijl, voorportieren en voorruit.",
+            "active": true,
+            "body_type": "hatchback",
+            "created_at": "2026-10-18T11:59:14.623634+00:00",
+            "match_terms": [
+            ],
+            "price_cents": 29000,
+            "service_ids": [
+                "9cba3426-f45c-46e7-89ec-1c64f9d5aa74",
+                "e92c7e56-dd82-4460-845f-2c8c51c6bf6b",
+                "f589fc46-4639-4aff-a89e-f875e0ae2769"
+            ],
+            "duration_min": 150,
+            "rear_window_count": null
+        },
+        {
+            "id": "2d6f6e1b-4a7d-4c20-bc99-532f41d74162",
+            "make": null,
+            "name": "Compleet hatchback met zwarte voorruit",
+            "notes": "Complete auto: B-stijl, voorportieren en voorruit.",
+            "active": true,
+            "body_type": "hatchback",
+            "created_at": "2026-10-18T11:59:14.623634+00:00",
+            "match_terms": [
+            ],
+            "price_cents": 28000,
+            "service_ids": [
+                "9cba3426-f45c-46e7-89ec-1c64f9d5aa74",
+                "e92c7e56-dd82-4460-845f-2c8c51c6bf6b",
+                "9119f385-9c1c-4840-b54d-784b46d35487"
+            ],
+            "duration_min": 150,
+            "rear_window_count": null
+        },
+        {
+            "id": "c2040b23-5b08-421f-aad7-9a900ffd9852",
+            "make": null,
+            "name": "Compleet sedan met kameleon voorruit",
+            "notes": "Complete auto: B-stijl, voorportieren en voorruit.",
+            "active": true,
+            "body_type": "sedan",
+            "created_at": "2026-10-18T11:59:14.623634+00:00",
+            "match_terms": [
+            ],
+            "price_cents": 32000,
+            "service_ids": [
+                "9cba3426-f45c-46e7-89ec-1c64f9d5aa74",
+                "e92c7e56-dd82-4460-845f-2c8c51c6bf6b",
+                "f589fc46-4639-4aff-a89e-f875e0ae2769"
+            ],
+            "duration_min": 150,
+            "rear_window_count": null
+        },
+        {
+            "id": "7fc47f96-cfb2-4f12-b833-2b4d87783c76",
+            "make": null,
+            "name": "Compleet sedan met zwarte voorruit",
+            "notes": "Complete auto: B-stijl, voorportieren en voorruit.",
+            "active": true,
+            "body_type": "sedan",
+            "created_at": "2026-10-18T11:59:14.623634+00:00",
+            "match_terms": [
+            ],
+            "price_cents": 30000,
+            "service_ids": [
+                "9cba3426-f45c-46e7-89ec-1c64f9d5aa74",
+                "e92c7e56-dd82-4460-845f-2c8c51c6bf6b",
+                "9119f385-9c1c-4840-b54d-784b46d35487"
+            ],
+            "duration_min": 150,
+            "rear_window_count": null
+        },
+        {
+            "id": "f4486931-e281-48b1-acf6-1a39d0728878",
+            "make": null,
+            "name": "Compleet station (5 ramen) met kameleon voorruit",
+            "notes": "Complete auto: B-stijl, voorportieren en voorruit.",
+            "active": true,
+            "body_type": "station",
+            "created_at": "2026-10-18T11:59:14.623634+00:00",
+            "match_terms": [
+            ],
+            "price_cents": 30000,
+            "service_ids": [
+                "9cba3426-f45c-46e7-89ec-1c64f9d5aa74",
+                "e92c7e56-dd82-4460-845f-2c8c51c6bf6b",
+                "f589fc46-4639-4aff-a89e-f875e0ae2769"
+            ],
+            "duration_min": 150,
+            "rear_window_count": 5
+        },
+        {
+            "id": "4a728f58-2936-45f4-aef1-b7a476bd75f1",
+            "make": null,
+            "name": "Compleet station (5 ramen) met zwarte voorruit",
+            "notes": "Complete auto: B-stijl, voorportieren en voorruit.",
+            "active": true,
+            "body_type": "station",
+            "created_at": "2026-10-18T11:59:14.623634+00:00",
+            "match_terms": [
+            ],
+            "price_cents": 30000,
+            "service_ids": [
+                "9cba3426-f45c-46e7-89ec-1c64f9d5aa74",
+                "e92c7e56-dd82-4460-845f-2c8c51c6bf6b",
+                "9119f385-9c1c-4840-b54d-784b46d35487"
+            ],
+            "duration_min": 150,
+            "rear_window_count": 5
+        },
+        {
+            "id": "1f22874a-9259-412d-9d5b-3130fea02146",
+            "make": null,
+            "name": "Compleet station (7 ramen) met kameleon voorruit",
+            "notes": "Complete auto: B-stijl, voorportieren en voorruit.",
+            "active": true,
+            "body_type": "station",
+            "created_at": "2026-10-18T11:59:14.623634+00:00",
+            "match_terms": [
+            ],
+            "price_cents": 33000,
+            "service_ids": [
+                "9cba3426-f45c-46e7-89ec-1c64f9d5aa74",
+                "e92c7e56-dd82-4460-845f-2c8c51c6bf6b",
+                "f589fc46-4639-4aff-a89e-f875e0ae2769"
+            ],
+            "duration_min": 150,
+            "rear_window_count": 7
+        },
+        {
+            "id": "b355364b-857c-4212-8dba-fbd67b9e8d6a",
+            "make": null,
+            "name": "Compleet station (7 ramen) met zwarte voorruit",
+            "notes": "Complete auto: B-stijl, voorportieren en voorruit.",
+            "active": true,
+            "body_type": "station",
+            "created_at": "2026-10-18T11:59:14.623634+00:00",
+            "match_terms": [
+            ],
+            "price_cents": 33000,
+            "service_ids": [
+                "9cba3426-f45c-46e7-89ec-1c64f9d5aa74",
+                "e92c7e56-dd82-4460-845f-2c8c51c6bf6b",
+                "9119f385-9c1c-4840-b54d-784b46d35487"
+            ],
+            "duration_min": 150,
+            "rear_window_count": 7
+        },
+        {
+            "id": "8746c03c-99b2-47a0-95f7-0f5e1b561c3d",
+            "make": null,
+            "name": "Standaard B-stijl + kameleon voorruit",
+            "notes": "Alleen de duur is als pakket vastgelegd; prijs = som van de onderdelen. Geldt niet bij een modeluitzondering.",
+            "active": true,
+            "body_type": null,
+            "created_at": "2026-10-18T11:59:14.531968+00:00",
+            "match_terms": [
+            ],
+            "price_cents": null,
+            "service_ids": [
+                "9cba3426-f45c-46e7-89ec-1c64f9d5aa74",
+                "f589fc46-4639-4aff-a89e-f875e0ae2769"
+            ],
+            "duration_min": 120,
+            "rear_window_count": null
+        },
+        {
+            "id": "869360e8-8868-4a12-b083-0ae768e49519",
+            "make": "Tesla",
+            "name": "Tesla Model 3, volledig glazen dak plus achterramen/B-stijl",
+            "notes": "Te bevestigen: exacte ramen van dit pakket. Totaalprijs €350.",
+            "active": false,
+            "body_type": null,
+            "created_at": "2026-10-18T11:59:14.531968+00:00",
+            "match_terms": [
+                "model 3"
+            ],
+            "price_cents": 35000,
+            "service_ids": [
+                "9cba3426-f45c-46e7-89ec-1c64f9d5aa74",
+                "c4491147-d5d4-4149-84d6-c27c3f1bfff2"
+            ],
+            "duration_min": 180,
+            "rear_window_count": null
+        }
+    ],
+    "services": [
+        {
+            "id": "9cba3426-f45c-46e7-89ec-1c64f9d5aa74",
+            "code": "bstijl",
+            "name": "Blinderen vanaf de B-stijl",
+            "notes": "Ramen moeten vrij zijn van oude folie en lijmresten. Controleer welke percentages per raam beschikbaar zijn.",
+            "active": true,
+            "film_kind": null,
+            "created_at": "2026-10-18T11:59:14.526302+00:00",
+            "sort_order": 10,
+            "updated_at": "2026-10-18T11:59:14.526302+00:00",
+            "description": null,
+            "film_brands": [
+                "SunTek",
+                "3M"
+            ],
+            "film_colors": null,
+            "is_windshield": false,
+            "price_on_sight": false,
+            "film_percentages": null
+        },
+        {
+            "id": "e92c7e56-dd82-4460-845f-2c8c51c6bf6b",
+            "code": "voorportieren",
+            "name": "Voorportieren tinten",
+            "notes": "Controleer welke percentages beschikbaar zijn.",
+            "active": true,
+            "film_kind": null,
+            "created_at": "2026-10-18T11:59:14.526302+00:00",
+            "sort_order": 20,
+            "updated_at": "2026-10-18T11:59:14.526302+00:00",
+            "description": null,
+            "film_brands": [
+                "SunTek",
+                "3M"
+            ],
+            "film_colors": null,
+            "is_windshield": false,
+            "price_on_sight": false,
+            "film_percentages": null
+        },
+        {
+            "id": "f589fc46-4639-4aff-a89e-f875e0ae2769",
+            "code": "kameleon_voorruit",
+            "name": "Kameleonfolie op de voorruit",
+            "notes": null,
+            "active": true,
+            "film_kind": "kameleon",
+            "created_at": "2026-10-18T11:59:14.526302+00:00",
+            "sort_order": 30,
+            "updated_at": "2026-10-18T11:59:14.526302+00:00",
+            "description": null,
+            "film_brands": null,
+            "film_colors": [
+                "Blauw",
+                "Rood",
+                "Groen",
+                "Paars"
+            ],
+            "is_windshield": true,
+            "price_on_sight": false,
+            "film_percentages": [
+            ]
+        },
+        {
+            "id": "9119f385-9c1c-4840-b54d-784b46d35487",
+            "code": "keramisch_voorruit",
+            "name": "Zwarte keramische folie op de voorruit",
+            "notes": "Onder andere 60% genoemd. Behandelduur nog niet vastgelegd.",
+            "active": true,
+            "film_kind": "keramisch",
+            "created_at": "2026-10-18T11:59:14.526302+00:00",
+            "sort_order": 40,
+            "updated_at": "2026-10-18T11:59:14.526302+00:00",
+            "description": null,
+            "film_brands": null,
+            "film_colors": null,
+            "is_windshield": true,
+            "price_on_sight": false,
+            "film_percentages": null
+        },
+        {
+            "id": "2e0d1369-ed2e-40e7-883b-216a1dd92363",
+            "code": "complete_auto",
+            "name": "Complete auto tinten",
+            "notes": "Vervangen door de pakketten \"Compleet …\" (B-stijl + voorportieren + voorruit).",
+            "active": false,
+            "film_kind": null,
+            "created_at": "2026-10-18T11:59:14.526302+00:00",
+            "sort_order": 50,
+            "updated_at": "2026-10-18T11:59:14.623077+00:00",
+            "description": null,
+            "film_brands": [
+                "SunTek",
+                "3M"
+            ],
+            "film_colors": null,
+            "is_windshield": false,
+            "price_on_sight": false,
+            "film_percentages": null
+        },
+        {
+            "id": "c4491147-d5d4-4149-84d6-c27c3f1bfff2",
+            "code": "panoramadak",
+            "name": "Panoramadak / glazen dak",
+            "notes": "Normaal prijs op zicht, behalve bij een expliciet ingesteld pakket.",
+            "active": true,
+            "film_kind": null,
+            "created_at": "2026-10-18T11:59:14.526302+00:00",
+            "sort_order": 60,
+            "updated_at": "2026-10-18T11:59:14.526302+00:00",
+            "description": null,
+            "film_brands": [
+                "SunTek",
+                "3M"
+            ],
+            "film_colors": null,
+            "is_windshield": false,
+            "price_on_sight": true,
+            "film_percentages": null
+        },
+        {
+            "id": "43c896f2-b2f0-47e1-bf94-c8ae4f997516",
+            "code": "achterlichten",
+            "name": "Achterlichten smoken",
+            "notes": "Nog geen vaste prijs of tijd vastgelegd.",
+            "active": true,
+            "film_kind": null,
+            "created_at": "2026-10-18T11:59:14.526302+00:00",
+            "sort_order": 70,
+            "updated_at": "2026-10-18T11:59:14.526302+00:00",
+            "description": null,
+            "film_brands": null,
+            "film_colors": null,
+            "is_windshield": false,
+            "price_on_sight": false,
+            "film_percentages": [
+            ]
+        }
+    ],
+    "discounts": [
+        {
+            "id": "0ecb5fa1-3f55-4a9d-b3ae-37a6d392740b",
+            "name": "Combinatiekorting voorportieren",
+            "notes": "Bij elke combinatie: voorportieren plus minimaal één andere behandeling.",
+            "active": true,
+            "body_types": null,
+            "created_at": "2026-10-18T11:59:14.532791+00:00",
+            "amount_cents": 1000,
+            "target_service_id": "e92c7e56-dd82-4460-845f-2c8c51c6bf6b",
+            "requires_any_other": true,
+            "required_any_service_ids": [
+            ]
+        }
+    ],
+    "exceptions": [
+        {
+            "id": "6d807c26-6d8a-40c5-8baa-da48182f5bcd",
+            "make": "Nissan",
+            "label": "Nissan Micra 2003, B-stijl",
+            "notes": null,
+            "active": true,
+            "year_to": 2003,
+            "body_type": null,
+            "year_from": 2003,
+            "created_at": "2026-10-18T11:59:14.529095+00:00",
+            "service_id": "9cba3426-f45c-46e7-89ec-1c64f9d5aa74",
+            "match_terms": [
+                "micra"
+            ],
+            "price_cents": 15000,
+            "duration_min": 90
+        },
+        {
+            "id": "950a3ca2-8478-4005-96ac-c448c15fa27b",
+            "make": "Peugeot",
+            "label": "Peugeot 307 station, B-stijl",
+            "notes": null,
+            "active": true,
+            "year_to": null,
+            "body_type": "station",
+            "year_from": null,
+            "created_at": "2026-10-18T11:59:14.529095+00:00",
+            "service_id": "9cba3426-f45c-46e7-89ec-1c64f9d5aa74",
+            "match_terms": [
+                "307"
+            ],
+            "price_cents": 25000,
+            "duration_min": 120
+        },
+        {
+            "id": "3099b9b4-a203-488b-b75a-5060a321c067",
+            "make": "Tesla",
+            "label": "Tesla Model 3, achterruit/sedanvariant",
+            "notes": "Te bevestigen: exacte ramen van dit pakket.",
+            "active": false,
+            "year_to": null,
+            "body_type": null,
+            "year_from": null,
+            "created_at": "2026-10-18T11:59:14.529095+00:00",
+            "service_id": "9cba3426-f45c-46e7-89ec-1c64f9d5aa74",
+            "match_terms": [
+                "model 3"
+            ],
+            "price_cents": 14000,
+            "duration_min": null
+        },
+        {
+            "id": "b9612ba4-ad2e-443b-bfa8-2c2322d363f0",
+            "make": "Volkswagen",
+            "label": "Volkswagen Golf 5, B-stijl",
+            "notes": null,
+            "active": true,
+            "year_to": null,
+            "body_type": null,
+            "year_from": null,
+            "created_at": "2026-10-18T11:59:14.529095+00:00",
+            "service_id": "9cba3426-f45c-46e7-89ec-1c64f9d5aa74",
+            "match_terms": [
+                "golf 5",
+                "golf v",
+                "golf mk5"
+            ],
+            "price_cents": 15000,
+            "duration_min": 90
+        },
+        {
+            "id": "c9ea8aeb-1722-4b7d-ab87-804159a20b75",
+            "make": "Volkswagen",
+            "label": "Volkswagen Golf 6, B-stijl",
+            "notes": null,
+            "active": true,
+            "year_to": null,
+            "body_type": null,
+            "year_from": null,
+            "created_at": "2026-10-18T11:59:14.529095+00:00",
+            "service_id": "9cba3426-f45c-46e7-89ec-1c64f9d5aa74",
+            "match_terms": [
+                "golf 6",
+                "golf vi",
+                "golf mk6"
+            ],
+            "price_cents": 15000,
+            "duration_min": 90
+        }
+    ]
+}
